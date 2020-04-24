@@ -24,6 +24,7 @@ body {
 
 a {
     text-decoration: none;
+    color: var(--bg-color);
 }
 
 
@@ -138,6 +139,11 @@ footer .icons a .fa-instagram:hover {
     .chamada .text {
         max-width: 100%;
     }
+
+    .container .nav .logo img{
+        max-width: 100%;
+    }
+
 }
 
 
