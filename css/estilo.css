@@ -79,6 +79,7 @@ a {
 }
 
 footer {
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -116,4 +117,68 @@ footer .icons a .fa-twitter:hover {
 
 footer .icons a .fa-instagram:hover {
     background-color: #517fa4;
+}
+
+/* Responsividade */
+@media (max-width: 900px) {
+    body {
+        background-image: url(/images/bg-mobile.svg);
+    }
+
+
+    .chamada {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .chamada img {
+        max-width: 100%;
+    }
+
+    .chamada .text {
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .container {
+        padding: 30px;
+    }
+
+    body {
+        background-image: url(/images/bg-mobile.svg);
+    }
+
+    .chamada {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container .nav .logo img{
+        max-width: 100%;
+    }
+
+    .chamada img {
+        max-width: 100%;
+    }
+
+    .chamada .text {
+        max-width: 100%;
+    }
+
+    .text h1 {
+        font-size: 1.5rem;
+    }
+
+    .text p {
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
 }
