@@ -1,0 +1,119 @@
+/* Fontes  
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,400;1,700&display=swap');
+
+:root {
+    --bg-color: hsl(257, 40%, 49%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/images/bg-desktop.svg) no-repeat  var(--bg-color);
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container .nav {
+    padding: 40px 0px;
+}
+
+.container .nav .logo img{
+    max-width: 16%;
+}
+
+.chamada {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chamada img {
+    max-width: 50%;
+}
+
+.chamada .text {
+    max-width: 45%;
+}
+
+.text h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin:0;
+}
+
+.text p{
+    margin-bottom: 40px;
+}
+
+
+
+.text .btn {
+    background-color: white;
+    padding: 10px 50px;
+    border-radius: 25px;
+    box-shadow: 3px 4px 15px rgba(000, 000, 000, 0.5);
+}
+
+.text .btn:hover {
+    box-shadow: 3px 4px 20px rgba(000, 000, 000, 0.5);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(199, 186, 186);
+}
+
+footer p {
+    font-size: 10px;
+}
+
+footer .icons i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border: 1px white solid;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+footer .icons a .fa-facebook-f:hover {
+    background-color: #3b5998;
+}
+
+footer .icons a .fa-twitter:hover {
+    background-color: #00aced;
+}
+
+footer .icons a .fa-instagram:hover {
+    background-color: #517fa4;
+}
